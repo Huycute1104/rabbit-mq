@@ -3,8 +3,7 @@
 ## 📑 Mục lục
 - [1. Cài đặt Erlang](#1-cài-đặt-erlang)  
 - [2. Cài đặt RabbitMQ](#2-cài-đặt-rabbitmq)  
-- [3. Cấp quyền](#3-cấp-quyền)  
-- [4. Quản lý service RabbitMQ](#4-quản-lý-service-rabbitmq)  
+- [3. Quản lý service RabbitMQ](#3-quản-lý-service-rabbitmq)  
 
 ---
 ## 1. Cài đặt Erlang
@@ -18,8 +17,7 @@
 - Cài đặt vào thư mục mong muốn, ví dụ: D:\Program Files\RabbitMQ Server
 - Thêm đường dẫn vào **Environment Variables** → `PATH`: D:\Program Files\RabbitMQ Server\rabbitmq_server-<version>\sbin
 
-## 3. Cấp quyền
-## 4. Quản lý service RabbitMQ
+## 3. Quản lý service RabbitMQ
 - Dừng service:
   ```cmd
   net stop RabbitMQ

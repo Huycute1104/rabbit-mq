@@ -16,7 +16,12 @@
 - Tải RabbitMQ từ: https://www.rabbitmq.com/download.html
 - Cài đặt vào thư mục mong muốn, ví dụ: D:\Program Files\RabbitMQ Server
 - Thêm đường dẫn vào **Environment Variables** → `PATH`: D:\Program Files\RabbitMQ Server\rabbitmq_server-<version>\sbin
-
+- Optional(Docker):
+  - Bạn phải cài Docker trước
+  - Chạy nhanh RabbitMQ bằng Docker (có Management UI):
+      ```cmd
+      docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.1.4-management
+      ```
 ## 3. Quản lý service RabbitMQ
 - Dừng service:
   ```cmd
